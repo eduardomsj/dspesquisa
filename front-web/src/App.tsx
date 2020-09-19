@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Hello from './Hello';
 
 function App() {
   return (
-    <h1>Hello SDS!</h1>
+    <div>
+      <Header />
+    </div>
+
   );
 }
 
